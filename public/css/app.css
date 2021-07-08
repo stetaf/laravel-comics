@@ -80,3 +80,24 @@ header .bottom .nav .search i {
   top: 0;
   color: #565d62;
 }
+
+main .jumbotron {
+  height: 400px;
+  background-image: url("../img/jumbotron.jpg");
+  position: relative;
+}
+main .jumbotron > div {
+  position: relative;
+  height: 100%;
+}
+main .jumbotron span {
+  position: absolute;
+  bottom: -20px;
+  background: #0282f9;
+  color: white;
+  font-size: 25px;
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 15px;
+}

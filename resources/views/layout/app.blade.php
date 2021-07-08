@@ -54,7 +54,13 @@
     <!-- /Header -->
 
     <!-- Main -->
-    <main></main>
+    <main>
+        <section class="jumbotron">
+            <div class="container">
+                <span>Current series</span>
+            </div>
+        </section>
+    </main>
     <!-- /Main -->
     
     <!-- Footer -->

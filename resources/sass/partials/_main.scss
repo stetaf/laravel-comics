@@ -1,0 +1,24 @@
+main {
+    .jumbotron { 
+        height: 400px;
+        background-image: url('../img/jumbotron.jpg');
+        position: relative;
+
+        &>div { 
+            position: relative; 
+            height: 100%;
+        }
+
+        span {
+            position: absolute;
+            bottom: -20px;
+            background: $blue;
+            color: white;
+            font-size: 25px;
+            font-family: 'Inconsolata', monospace;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 10px 15px;
+        }
+    }
+}
