@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #0282f9;
+}
+header .links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+  padding: 5px 0;
+}
+header .links a {
+  color: white;
+  margin-left: 35px;
+}
+header .links a:nth-child(2) {
+  display: flex;
+}
+header .links a:nth-child(2) i {
+  margin-left: 5px;
+}
