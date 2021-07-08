@@ -81,6 +81,9 @@ header .bottom .nav .search i {
   color: #565d62;
 }
 
+main {
+  background: #1c1c1c;
+}
 main .jumbotron {
   height: 400px;
   background-image: url("../img/jumbotron.jpg");
