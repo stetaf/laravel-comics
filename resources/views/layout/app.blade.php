@@ -60,7 +60,60 @@
     <!-- /Main -->
     
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+        <div class="upper">
+            <div class="container">
+                <div class="menus">
+                    <div>
+                        <div class="first">
+                            <h2>DC Comics</h2>
+                            <a href="#">Characters</a>
+                            <a href="#">Comics</a>
+                            <a href="#">Movies</a>
+                            <a href="#">TV</a>
+                            <a href="#">Games</a>
+                            <a href="#">Videos</a>
+                            <a href="#">News</a>
+                            <h2 style="margin-top:25px">Shop</h2>
+                            <a href="#">Shop DC</a>
+                            <a href="#">Shop DC Collectibles</a>
+                        </div>
+                        <div class="second">
+                            <h2>Dc</h2>
+                            <a href="#">Term Of Use</a>
+                            <a href="#">Privacy policy (New)</a>
+                            <a href="#">Ad Choices</a>
+                            <a href="#">Advertising</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">Subscriptions</a>
+                            <a href="#">Talent Workshops</a>
+                            <a href="#">CSPC Certificates</a>
+                            <a href="#">Ratings</a>
+                            <a href="#">Shop Help</a>
+                            <a href="#">Contact Us</a>
+                        </div>
+                        <div class="third">
+                            <h2>Sites</h2>
+                            <a href="#">DC</a>
+                            <a href="#">MAD Magazine</a>
+                            <a href="#">DC Kids</a>
+                            <a href="#">DC Universe</a>
+                            <a href="#">DC Power Visa</a>
+                        </div>
+                    </div>
+                    <p>All site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved. <br> <a href="#">Cookie settings</a></p>
+                </div>
+                <div class="dc_logo">
+                    <img src="/img/dc-logo-bg.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+
+            </div>
+        </div>
+    </footer>
     <!-- /Footer -->
 </body>
 

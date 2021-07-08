@@ -1,0 +1,60 @@
+footer { 
+    .upper { 
+        height: 400px;
+        background-image: url('../img/footer-bg.jpg');
+        padding: 35px 0;
+        position: relative;
+
+        &>div { 
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h2 { 
+            color: white;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .menus { 
+            display: flex; 
+            flex-direction: column;
+            font-size: 13px;
+
+            p { 
+                color: #8b9595;
+                margin-top: 20px;
+                
+                a { 
+                    color: $blue;
+                }
+            }
+
+            &>div { 
+                display: flex; 
+                
+                a { 
+                    display: block;
+                    color: #8b9595;
+                    margin: 5px 0;
+                }
+
+                &>div { margin-right: 35px; }
+            }
+        }
+
+        .dc_logo { 
+            position: absolute;
+            left: 50%;
+            top: -75px;
+            z-index: 1;
+        }
+    }
+
+    .bottom { 
+        height: 100px;
+        z-index: 2;
+        background: $gray2;   
+        position: relative;
+    }
+}
