@@ -56,5 +56,36 @@ footer {
         z-index: 2;
         background: $gray2;   
         position: relative;
+        padding: 25px 0;
+
+        &>div { 
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .sign_up {
+                span { 
+                    color: white;
+                    border: 3px solid $blue;
+                    padding: 15px 20px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .socials { 
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                span { 
+                    color: $blue;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+
+                span, a { margin-left: 20px; }
+            }
+        }
     }
 }

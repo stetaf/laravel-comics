@@ -110,7 +110,27 @@
         </div>
         <div class="bottom">
             <div class="container">
-
+                <div class="sign_up">
+                    <a href="#"><span>Sign-up now!</span></a>
+                </div>
+                <div class="socials">
+                    <span>Follow us</span>
+                    <a href="#">
+                        <img src="../img/footer-facebook.png" alt="Facebook icon">
+                    </a>
+                    <a href="#">
+                        <img src="../img/footer-twitter.png" alt="Twitter icon">
+                    </a>
+                    <a href="#">
+                        <img src="../img/footer-youtube.png" alt="Youtube icon">
+                    </a>
+                    <a href="#">
+                        <img src="../img/footer-pinterest.png" alt="Pinterest icon">
+                    </a>
+                    <a href="#">
+                        <img src="../img/footer-periscope.png" alt="Periscope icon">
+                    </a>
+                </div>
             </div>
         </div>
     </footer>

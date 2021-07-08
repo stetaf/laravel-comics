@@ -202,4 +202,30 @@ footer .bottom {
   z-index: 2;
   background: #303030;
   position: relative;
+  padding: 25px 0;
+}
+footer .bottom > div {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .bottom > div .sign_up span {
+  color: white;
+  border: 3px solid #0282f9;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+footer .bottom > div .socials {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .bottom > div .socials span {
+  color: #0282f9;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+footer .bottom > div .socials span, footer .bottom > div .socials a {
+  margin-left: 20px;
 }
