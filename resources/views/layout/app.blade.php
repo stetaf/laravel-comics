@@ -14,13 +14,40 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="links">
-                <a href="#">DC POWER&trade; VISA&reg;</a>
-                <a href="#">
-                    ADDITIONAL DC SITES
-                    <i class="fas fa-sort-down"></i>
-                </a>
+        <div class="upper">
+            <div class="container">
+                <div class="links">
+                    <a href="#">DC POWER&trade; VISA&reg;</a>
+                    <a href="#">
+                        ADDITIONAL DC SITES
+                        <i class="fas fa-sort-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="./img/dc-logo.png" alt="">
+                    </div>
+                    <div class="menu">
+                        <a href="#">Characters</a>
+                        <a href="#" class="active">Comics</a>
+                        <a href="#">Movies</a>
+                        <a href="#">Tv</a>
+                        <a href="#">Games</a>
+                        <a href="#">Collectibles</a>
+                        <a href="#">Videos</a>
+                        <a href="#">Fans</a>
+                        <a href="#">News</a>
+                        <a href="#">Shop</a>
+                    </div>
+                    <div class="search">
+                        <input type="text" name="search" id="search" value="Search">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

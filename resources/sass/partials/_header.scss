@@ -1,19 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 header { 
-    background-color: $blue;
-    .links { 
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        font-size: 13px;
-        padding: 5px 0;
-        
-        a { 
-            color: white; 
-            margin-left: 35px; 
-        
-            &:nth-child(2) { 
-                display: flex;
-                i { margin-left: 5px; }
+    
+    .upper { 
+        background-color: $blue;
+        .links { 
+            display: flex;
+            justify-content: flex-end;
+            font-size: 13px;
+            padding: 5px 0;
+            
+            a { 
+                color: white; 
+                margin-left: 35px; 
+            
+                &:nth-child(2) { 
+                    display: flex;
+                    i { margin-left: 5px; }
+                }
+            }
+        }
+    }
+
+    .bottom {
+        height: 120px;
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+
+            img { width: 75px; }
+
+            .menu { 
+                a {
+                    color: $blue2;
+                    font-family: 'Inconsolata', monospace;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    padding: 47.5px 0px;
+                    margin: 0 13px;
+                }
+
+                .active { 
+                    border-bottom: 5px solid $blue;
+                }
+            }
+
+            .search { 
+                position: relative;
+                
+                input { 
+                    border: 0px;
+                    border-bottom: 3px solid $blue;
+                    outline: 0px;
+                    text-align: right;
+                    padding-bottom: 5px;
+                    padding-right: 20px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: $blue2;
+                    width: 140px;
+                }
+                i {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    color: $blue2;
+                }
             }
         }
     }

@@ -1,7 +1,11 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: white;
 }
 
 .container {
@@ -13,23 +17,66 @@ a {
   text-decoration: none;
 }
 
-header {
+header .upper {
   background-color: #0282f9;
 }
-header .links {
-  width: 100%;
+header .upper .links {
   display: flex;
   justify-content: flex-end;
   font-size: 13px;
   padding: 5px 0;
 }
-header .links a {
+header .upper .links a {
   color: white;
   margin-left: 35px;
 }
-header .links a:nth-child(2) {
+header .upper .links a:nth-child(2) {
   display: flex;
 }
-header .links a:nth-child(2) i {
+header .upper .links a:nth-child(2) i {
   margin-left: 5px;
+}
+header .bottom {
+  height: 120px;
+}
+header .bottom .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+header .bottom .nav img {
+  width: 75px;
+}
+header .bottom .nav .menu a {
+  color: #565d62;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 47.5px 0px;
+  margin: 0 13px;
+}
+header .bottom .nav .menu .active {
+  border-bottom: 5px solid #0282f9;
+}
+header .bottom .nav .search {
+  position: relative;
+}
+header .bottom .nav .search input {
+  border: 0px;
+  border-bottom: 3px solid #0282f9;
+  outline: 0px;
+  text-align: right;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #565d62;
+  width: 140px;
+}
+header .bottom .nav .search i {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #565d62;
 }
