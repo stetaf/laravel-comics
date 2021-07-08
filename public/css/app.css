@@ -104,3 +104,32 @@ main .jumbotron span {
   font-weight: bold;
   padding: 10px 15px;
 }
+main .comics .cards {
+  padding: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+main .comics .cards .card {
+  width: calc(100% / 6 - 20px);
+  height: 190px;
+  margin: 35px 10px;
+}
+main .comics .cards .card .img {
+  height: 100%;
+}
+main .comics .cards .card h5 {
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+main .comics .cards input {
+  background: #0282f9;
+  color: white;
+  font-weight: bold;
+  padding: 10px 60px;
+  margin-top: 65px;
+  text-transform: uppercase;
+  border: unset;
+}

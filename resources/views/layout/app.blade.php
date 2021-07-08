@@ -55,11 +55,7 @@
 
     <!-- Main -->
     <main>
-        <section class="jumbotron">
-            <div class="container">
-                <span>Current series</span>
-            </div>
-        </section>
+    @yield('main')
     </main>
     <!-- /Main -->
     
