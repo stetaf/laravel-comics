@@ -133,3 +133,21 @@ main .comics .cards input {
   text-transform: uppercase;
   border: unset;
 }
+main .icons {
+  background: #0282f9;
+  color: white;
+  text-transform: uppercase;
+  padding: 45px 0;
+}
+main .icons > div {
+  display: flex;
+  justify-content: space-between;
+}
+main .icons > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .icons > div > div span {
+  margin-left: 10px;
+}

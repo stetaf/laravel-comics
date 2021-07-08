@@ -56,4 +56,24 @@ main {
             }
         }
     }
+
+    .icons {
+        background: $blue;
+        color: white;
+        text-transform: uppercase;
+        padding: 45px 0;
+
+        &>div {
+            display: flex;
+            justify-content: space-between;
+            
+            &>div { 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                span { margin-left: 10px; }
+            }
+        }
+    }
 }
