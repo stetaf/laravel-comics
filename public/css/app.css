@@ -24,8 +24,8 @@ header .upper {
 header .upper .links {
   display: flex;
   justify-content: flex-end;
-  font-size: 13px;
-  padding: 5px 0;
+  font-size: 11px;
+  padding: 7px 0;
 }
 header .upper .links a {
   color: white;
