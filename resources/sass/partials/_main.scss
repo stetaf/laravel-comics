@@ -45,8 +45,9 @@ main {
                 }
             }
 
-            input { 
+            span { 
                 background: $blue;
+                display: block;
                 color: white;
                 font-weight: bold;
                 padding: 10px 60px;

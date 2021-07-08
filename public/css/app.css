@@ -125,8 +125,9 @@ main .comics .cards .card h5 {
   text-transform: uppercase;
   padding: 15px 0;
 }
-main .comics .cards input {
+main .comics .cards span {
   background: #0282f9;
+  display: block;
   color: white;
   font-weight: bold;
   padding: 10px 60px;

@@ -19,7 +19,7 @@
                     <h5>{{ $comic['series'] }}</h5>
                 </div>
             @endforeach
-            <input type="submit" value="Load more">
+            <a href="#"><span>Load more</span></a>
         </div>
     </div>
 </div>
