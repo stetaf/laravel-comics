@@ -31,21 +31,28 @@ main {
             justify-content: center;
             align-items: center;
 
-            .card {
-                width: calc(100% / 6 - 20px);
-                height: 190px;
+            .card {           
                 margin: 35px 10px;
+                max-height: 170px;
 
-                .img { height: 100%; }
+                img { 
+                    width: 170px;
+                    height: 170px;
+                    object-fit: cover;
+                    object-position: top
+                }
 
                 h5 { 
                     color: white;
                     text-transform: uppercase;
                     padding: 15px 0;
+                    max-width: fit-content;
+                    font-weight: normal;
+                    font-size: 12px;
                 }
             }
-
-            span { 
+            
+            .load { 
                 background: $blue;
                 display: block;
                 color: white;

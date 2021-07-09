@@ -113,19 +113,28 @@ main .comics .cards {
   align-items: center;
 }
 main .comics .cards .card {
-  width: calc(100% / 6 - 20px);
-  height: 190px;
   margin: 35px 10px;
+  max-height: 170px;
 }
-main .comics .cards .card .img {
-  height: 100%;
+main .comics .cards .card img {
+  width: 170px;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 main .comics .cards .card h5 {
   color: white;
   text-transform: uppercase;
   padding: 15px 0;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  font-weight: normal;
+  font-size: 12px;
 }
-main .comics .cards span {
+main .comics .cards .load {
   background: #0282f9;
   display: block;
   color: white;

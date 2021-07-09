@@ -15,11 +15,11 @@
         <div class="cards">
             @foreach ($comics as $comic)
                 <div class="card">
-                    <div class="img" style="background-image: url('{{ $comic['thumb'] }}');"></div>
-                    <h5>{{ $comic['series'] }}</h5>
+                    <img src="{{ $comic['thumb'] }} ">
+                    <h5 class="">{{ $comic['series'] }}</h5>
                 </div>
             @endforeach
-            <a href="#"><span>Load more</span></a>
+            <a href="#"><span class="load">Load more</span></a>
         </div>
     </div>
 </div>
