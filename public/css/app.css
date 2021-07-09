@@ -68,6 +68,9 @@ header .bottom .nav .menu a {
 header .bottom .nav .menu .active {
   border-bottom: 5px solid #0282f9;
 }
+header .bottom .nav .menu a:hover {
+  border-bottom: 5px solid #0282f9;
+}
 header .bottom .nav .search {
   position: relative;
 }

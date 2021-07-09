@@ -43,6 +43,10 @@ header {
                 .active { 
                     border-bottom: 5px solid $blue;
                 }
+
+                a:hover {
+                    border-bottom: 5px solid $blue;
+                }
             }
 
             .search { 
