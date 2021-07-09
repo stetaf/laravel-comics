@@ -22,6 +22,10 @@ a {
   display: none;
 }
 
+.green_btn {
+  background-color: #55ba59;
+}
+
 header .upper {
   background-color: #0282f9;
 }
@@ -198,6 +202,50 @@ main .comic .comic_card .img .gallery {
   bottom: 4px;
   left: 1px;
   width: 193px;
+}
+main .comic .comic_info {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  padding: 75px 0;
+}
+main .comic .comic_info .left {
+  width: 65%;
+}
+main .comic .comic_info .left h2 {
+  color: #003f5e;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+main .comic .comic_info .left .green_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #357739;
+  margin: 20px 0;
+}
+main .comic .comic_info .left .green_btn .first {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  padding: 15px 25px;
+  border-right: 1px solid #357739;
+}
+main .comic .comic_info .left .green_btn .first span {
+  color: white;
+}
+main .comic .comic_info .left .green_btn .first em {
+  color: #bafd9c;
+  font-style: unset;
+}
+main .comic .comic_info .left .green_btn .check {
+  padding: 0 15px;
+  color: white;
+}
+main .comic .comic_info .right {
+  width: 35%;
 }
 
 footer .upper {

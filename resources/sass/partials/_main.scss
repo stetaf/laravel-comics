@@ -121,5 +121,53 @@ main {
                 }
             }
         }
+
+        .comic_info { 
+            background-color: white;
+            position: relative;
+            z-index: 2;
+            padding: 75px 0;
+
+            .left {
+                width: 65%;
+
+                h2 { 
+                    color: #003f5e;
+                    text-transform: uppercase;
+                    margin-bottom: 5px;
+                }
+                .green_btn {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 14px;
+                    font-weight: bold;
+                    border-bottom: 1px solid #357739;
+                    margin: 20px 0;
+
+                    .first { 
+                        display: flex;
+                        justify-content: space-between;
+                        flex: 2;
+                        padding: 15px 25px;
+                        border-right: 1px solid #357739;
+
+                        span { color: white; }
+
+                        em { 
+                            color: #bafd9c; 
+                            font-style: unset;
+                        }
+                    }
+                    .check {
+                        padding: 0 15px; 
+                        color: white;
+                    }
+                }
+            }
+            .right { 
+                width: 35%;
+            }
+        }
     }
 }

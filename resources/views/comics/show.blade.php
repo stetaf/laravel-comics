@@ -18,7 +18,26 @@
     </div>
     <div class="comic_info">
         <div class="container">
-            <h2>{{ $comic['title'] }}</h2>
+            <div class="left">
+                <h2>{{ $comic['title'] }}</h2>
+                <div class="green_btn">
+                    <div class="first">
+                        <span class="price">
+                            <em>U.S. Price:</em> {{ $comic['price'] }}
+                        </span>
+                        <span class="aval">
+                            <em>AVAILABLE</em>
+                        </span>
+                    </div>
+                    <span class="check">
+                        Check Availability
+                    </span>
+                </div>
+                <p>{{ $comic['description'] }}</p>
+            </div>
+            <div class="right">
+
+            </div>
         </div>
     </div>
 </div>
