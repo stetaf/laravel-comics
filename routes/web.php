@@ -19,6 +19,16 @@ Route::get('/', function () {
     $data = [
         'comics' => $comics
     ];
-
     return view('home', $data);
-});
+})->name('home');
+
+Route::get('comics/{id}', function ($id) {
+    $comics = config('comics');
+    
+    if (is_numeric($id) && $id >= 0 && $id < count($comics)) {
+        $comic = $comics[$id];
+        return view('comics.show', compact('comic'));
+    } else { 
+        abort(404);
+    }
+})->name('comic');
