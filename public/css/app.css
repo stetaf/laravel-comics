@@ -171,7 +171,7 @@ main .icons > div > div span {
   margin-left: 10px;
 }
 main .comic .container {
-  padding: 0 90px;
+  padding: 0 80px;
 }
 main .comic .comic_card {
   height: 75px;
@@ -210,7 +210,8 @@ main .comic .comic_info {
   padding: 75px 0;
 }
 main .comic .comic_info .left {
-  width: 65%;
+  width: calc(100% - 355px);
+  display: inline-block;
 }
 main .comic .comic_info .left h2 {
   color: #003f5e;
@@ -244,8 +245,28 @@ main .comic .comic_info .left .green_btn .check {
   padding: 0 15px;
   color: white;
 }
+main .comic .comic_info .left p {
+  color: #555555;
+  font-size: 14px;
+  line-height: 25px;
+}
 main .comic .comic_info .right {
-  width: 35%;
+  display: inline-block;
+  padding: 0 25px;
+  position: relative;
+}
+main .comic .comic_info .right img {
+  position: relative;
+  top: -25px;
+}
+main .comic .comic_info .right span {
+  color: #555555;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: -45px;
+  right: 20px;
 }
 
 footer .upper {
