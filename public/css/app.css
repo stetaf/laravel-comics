@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -55,7 +55,7 @@ header .bottom .nav img {
 }
 header .bottom .nav .menu a {
   color: #565d62;
-  font-family: "Inconsolata", monospace;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   padding: 47.5px 0px;

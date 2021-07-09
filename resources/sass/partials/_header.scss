@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
 header { 
     
     .upper { 
@@ -35,7 +33,7 @@ header {
             .menu { 
                 a {
                     color: $blue2;
-                    font-family: 'Inconsolata', monospace;
+                    font-size: 14px;
                     font-weight: bold;
                     text-transform: uppercase;
                     padding: 47.5px 0px;
