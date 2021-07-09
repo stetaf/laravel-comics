@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="right">
-                <h3>Specs</h3>
+                    <h3>Specs</h3>
                     <div class="data">
                         <span>Series:</span>
                         <a href="#" class="serie">{{ $comic['series'] }}</a>
@@ -92,11 +92,37 @@
                     </div>
                 </div>
             </div>
-            <div class="bottom">
-
+        </div>
+    </div>
+    <div class="bottom_bar">
+        <div class="container">
+            <div class="icons">
+                <div>
+                    <a href="#">
+                        <span>Digital comics</span>
+                        <div class="icon"></div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>Shop dc</span>
+                        <div class="icon"></div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>Comic shop locator</span>
+                        <div class="icon"></div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>Subscriptions</span>
+                        <div class="icon"></div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
 @endsection
