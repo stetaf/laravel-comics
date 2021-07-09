@@ -29,7 +29,7 @@
             <div class="container">
                 <div class="nav">
                     <div class="logo">
-                        <img src="./img/dc-logo.png" alt="">
+                        <img src="{{asset('img/dc-logo.png')}}" alt="">
                     </div>
                     <div class="menu">
                         <a href="#">Characters</a>
