@@ -30,7 +30,8 @@
                         </span>
                     </div>
                     <span class="check">
-                        Check Availability
+                        Check Availability 
+                        <i class="fas fa-sort-down"></i>
                     </span>
                 </div>
                 <p>{{ $comic['description'] }}</p>

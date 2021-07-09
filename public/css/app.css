@@ -250,6 +250,9 @@ main .comic .comic_info .left p {
   font-size: 14px;
   line-height: 25px;
 }
+main .comic .comic_info .left i {
+  vertical-align: text-top;
+}
 main .comic .comic_info .right {
   display: inline-block;
   padding: 0 25px;
