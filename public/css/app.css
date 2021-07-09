@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+.d-none {
+  display: none;
+}
+
 header .upper {
   background-color: #0282f9;
 }
@@ -161,6 +165,41 @@ main .icons > div > div {
 }
 main .icons > div > div span {
   margin-left: 10px;
+}
+main .comic {
+  height: 75px;
+  background-color: #0282f9;
+}
+main .comic .comic_card {
+  position: relative;
+  top: -240px;
+  left: 0;
+  padding: 0 75px;
+}
+main .comic .comic_card img {
+  border: 1px solid white;
+  width: 195px;
+}
+main .comic .comic_card .img {
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+main .comic .comic_card .img .type, main .comic .comic_card .img .gallery {
+  position: absolute;
+  padding: 3px 5px;
+  background-color: #00a9d9;
+}
+main .comic .comic_card .img .type {
+  top: 1px;
+  left: 1px;
+}
+main .comic .comic_card .img .gallery {
+  text-align: center;
+  bottom: 4px;
+  left: 1px;
+  width: 193px;
 }
 
 footer .upper {
