@@ -166,15 +166,12 @@ main .icons > div > div {
 main .icons > div > div span {
   margin-left: 10px;
 }
-main .comic {
-  height: 75px;
-  background-color: #0282f9;
+main .comic .container {
+  padding: 0 90px;
 }
 main .comic .comic_card {
-  position: relative;
-  top: -240px;
-  left: 0;
-  padding: 0 75px;
+  height: 75px;
+  background-color: #0282f9;
 }
 main .comic .comic_card img {
   border: 1px solid white;
@@ -185,6 +182,7 @@ main .comic .comic_card .img {
   text-transform: uppercase;
   color: white;
   font-size: 12px;
+  top: -240px;
 }
 main .comic .comic_card .img .type, main .comic .comic_card .img .gallery {
   position: absolute;

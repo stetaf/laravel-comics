@@ -86,14 +86,11 @@ main {
     }
 
     .comic { 
-        height: 75px;
-        background-color: $blue;
+        .container { padding: 0 90px; }
         
         .comic_card {
-            position: relative;
-            top: -240px;
-            left: 0;
-            padding: 0 75px;
+            height: 75px;
+            background-color: $blue;
 
             img {
                 border: 1px solid white;
@@ -105,6 +102,8 @@ main {
                 text-transform: uppercase;
                 color: white;
                 font-size: 12px;
+                top: -240px;
+
                 .type, .gallery { 
                     position: absolute;
                     padding: 3px 5px;
