@@ -42,6 +42,61 @@
             </div>
         </div>
     </div>
+    <div class="comic_data">
+        <div class="container">
+            <div class="upper">
+                <div class="left">
+                    <h3>Talent</h3>
+                    <div class="people">
+                        <span>Art by:</span>
+                        <ul class="list">
+                            @foreach ($comic['artists'] as $artist)
+                                <li>
+                                    @if(!$loop->last)
+                                    <span>{{ $artist }}</span>,
+                                    @else
+                                    <span>{{ $artist }}</span>
+                                    @endif
+                                </li>                          
+                            @endforeach
+                        </ul>
+                    </div>
+                    <div class="people">
+                        <span>Written by:</span>
+                        <ul class="list">
+                            @foreach ($comic['writers'] as $writers)
+                                <li>
+                                    @if(!$loop->last)
+                                    <span>{{ $writers }}</span>,
+                                    @else
+                                    <span>{{ $writers }}</span>
+                                    @endif
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                <h3>Specs</h3>
+                    <div class="data">
+                        <span>Series:</span>
+                        <a href="#" class="serie">{{ $comic['series'] }}</a>
+                    </div>
+                    <div class="data">
+                        <span>U.S. Price:</span>
+                        <a href="#">{{ $comic['price'] }}</a>
+                    </div>
+                    <div class="data">
+                        <span>On Sale Date:</span>
+                        <a href="#">{{ date('M d Y', strtotime($comic['sale_date'] )) }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+
+            </div>
+        </div>
+    </div>
 </div>
 
 @endsection

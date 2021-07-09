@@ -192,5 +192,67 @@ main {
                 }
             }
         }
+
+        .comic_data {
+            background-color: #f6f6f6;
+            position: relative;
+            z-index: 2;
+            font-size: 12px;
+
+            .upper{
+                display: flex;
+                padding-top: 25px;
+                h3 { 
+                    font-size: 19px;
+                    padding-bottom: 25px;
+                    border-bottom: 1px solid #e3e3e3;
+                    color: #003f5e;
+                }
+                ul li { 
+                    list-style: none; 
+                    display: inline-block;
+                }
+                .people { 
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 0;
+                    border-bottom: 1px solid #e3e3e3;
+                }
+
+                span { flex: 5; }
+
+                ul { 
+                    flex: 12; 
+                    span { color: $lightblue; }
+                }
+
+                .left {
+                    flex: 1;
+                    margin-right: 50px;
+                }
+                .right {
+                    flex: 0.9;
+                }
+
+                .right { 
+                    .data {
+                        display: flex;
+                        padding: 10px 0;
+                        border-bottom: 1px solid #e3e3e3;    
+                        span { 
+                            flex: unset; 
+                            width: 150px;
+                        }
+
+                        a { color: unset;}
+                        .serie { 
+                            color: $lightblue;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

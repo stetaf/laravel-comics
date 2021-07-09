@@ -270,6 +270,65 @@ main .comic .comic_info .adv span {
   top: -25px;
   right: 0px;
 }
+main .comic .comic_data {
+  background-color: #f6f6f6;
+  position: relative;
+  z-index: 2;
+  font-size: 12px;
+}
+main .comic .comic_data .upper {
+  display: flex;
+  padding-top: 25px;
+}
+main .comic .comic_data .upper h3 {
+  font-size: 19px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e3e3e3;
+  color: #003f5e;
+}
+main .comic .comic_data .upper ul li {
+  list-style: none;
+  display: inline-block;
+}
+main .comic .comic_data .upper .people {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+main .comic .comic_data .upper span {
+  flex: 5;
+}
+main .comic .comic_data .upper ul {
+  flex: 12;
+}
+main .comic .comic_data .upper ul span {
+  color: #00a9d9;
+}
+main .comic .comic_data .upper .left {
+  flex: 1;
+  margin-right: 50px;
+}
+main .comic .comic_data .upper .right {
+  flex: 0.9;
+}
+main .comic .comic_data .upper .right .data {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+main .comic .comic_data .upper .right .data span {
+  flex: unset;
+  width: 150px;
+}
+main .comic .comic_data .upper .right .data a {
+  color: unset;
+}
+main .comic .comic_data .upper .right .data .serie {
+  color: #00a9d9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 footer .upper {
   height: 400px;
