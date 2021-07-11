@@ -1,5 +1,7 @@
 @extends('layout.app')
 
+@section("title", "DC - Comics")
+
 @section('main')
 
 <!-- Jumbotron -->

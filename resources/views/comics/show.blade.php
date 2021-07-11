@@ -1,5 +1,7 @@
 @extends('layout.app')
 
+@section('title', 'DC - ' . $comic['title'])
+
 @section('main')
 
 <!-- Jumbotron -->
