@@ -45,10 +45,11 @@ footer {
         }
 
         .dc_logo { 
-            position: absolute;
-            left: 50%;
-            top: -75px;
-            z-index: 1;
+            background: url(/img/dc-logo-bg.png);
+            width: 563px;
+            height: 455px;
+            background-position: center;
+            transform: translate(30px, -55px);        
         }
     }
 
