@@ -82,15 +82,15 @@
                     <h3>Specs</h3>
                     <div class="data">
                         <span>Series:</span>
-                        <a href="#" class="serie">{{ $comic['series'] }}</a>
+                        <span class="serie">{{ $comic['series'] }}</span>
                     </div>
                     <div class="data">
                         <span>U.S. Price:</span>
-                        <a href="#">{{ $comic['price'] }}</a>
+                        <span>{{ $comic['price'] }}</span>
                     </div>
                     <div class="data">
                         <span>On Sale Date:</span>
-                        <a href="#">{{ date('M d Y', strtotime($comic['sale_date'] )) }}</a>
+                        <span>{{ date('M d Y', strtotime($comic['sale_date'] )) }}</span>
                     </div>
                 </div>
             </div>
