@@ -34,7 +34,7 @@
                     </div>
                     <div class="menu">
                         <a href="#">Characters</a>
-                        <a href="#" class="active">Comics</a>
+                        <a href="#" class="{{ (request()->routeIs('home') || request()->routeIs('comic')) ? 'active' : '' }}">Comics</a>
                         <a href="#">Movies</a>
                         <a href="#">Tv</a>
                         <a href="#">Games</a>
